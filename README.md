@@ -1,1 +1,15 @@
-# teamsity
+# Домашнее задание к занятию 11 «Teamcity»
+
+## Подготовка к выполнению
+
+1. В Yandex Cloud создайте новый инстанс (4CPU4RAM) на основе образа `jetbrains/teamcity-server`.
+2. Дождитесь запуска teamcity, выполните первоначальную настройку.
+
+<img width="2078" height="1356" alt="image" src="https://github.com/user-attachments/assets/9997b47b-e615-446c-a244-63a041706eda" />
+
+<img width="2350" height="1358" alt="image" src="https://github.com/user-attachments/assets/9cad75ff-da6c-48c8-9a55-fa41a455c4d8" />
+   
+3. Создайте ещё один инстанс (2CPU4RAM) на основе образа `jetbrains/teamcity-agent`. Пропишите к нему переменную окружения `SERVER_URL: "http://<teamcity_url>:8111"`.
+4. Авторизуйте агент.
+5. Сделайте fork [репозитория](https://github.com/aragastmatb/example-teamcity).
+6. Создайте VM (2CPU4RAM) и запустите [playbook](./infrastructure).
