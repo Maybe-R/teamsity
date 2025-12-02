@@ -11,5 +11,9 @@
    
 3. Создайте ещё один инстанс (2CPU4RAM) на основе образа `jetbrains/teamcity-agent`. Пропишите к нему переменную окружения `SERVER_URL: "http://<teamcity_url>:8111"`.
 4. Авторизуйте агент.
-5. Сделайте fork [репозитория](https://github.com/aragastmatb/example-teamcity).
-6. Создайте VM (2CPU4RAM) и запустите [playbook](./infrastructure).
+
+<img width="1262" height="774" alt="image" src="https://github.com/user-attachments/assets/58618e9e-c4e5-40d1-aff2-dbc10b69d356" />
+
+   
+6. Сделайте fork [репозитория](https://github.com/aragastmatb/example-teamcity).
+7. Создайте VM (2CPU4RAM) и запустите [playbook](./infrastructure).
