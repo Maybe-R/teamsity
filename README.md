@@ -22,7 +22,8 @@
 
 1. Создайте новый проект в teamcity на основе fork.
 
-<img width="2490" height="618" alt="image" src="https://github.com/user-attachments/assets/b93fe721-d88f-4722-8a5a-5a6aba349d0f" />
+<img width="1435" height="447" alt="image" src="https://github.com/user-attachments/assets/ceb5cee4-e870-4496-947d-e6d092be3a71" />
+
 
 2.Сделайте autodetect конфигурации и сохраните необходимые шаги, запустите первую сборку master.
 
