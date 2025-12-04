@@ -17,3 +17,15 @@
    
 6. Сделайте fork [репозитория](https://github.com/aragastmatb/example-teamcity).
 7. Создайте VM (2CPU4RAM) и запустите [playbook](./infrastructure).
+
+## Основаая часть
+
+1. Создайте новый проект в teamcity на основе fork.
+
+<img width="2490" height="618" alt="image" src="https://github.com/user-attachments/assets/b93fe721-d88f-4722-8a5a-5a6aba349d0f" />
+
+2.Сделайте autodetect конфигурации и сохраните необходимые шаги, запустите первую сборку master.
+
+<img width="2486" height="977" alt="image" src="https://github.com/user-attachments/assets/f6386f59-c7b3-4a9f-bc9d-e7cd8afd3979" />
+
+
